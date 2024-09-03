@@ -1,0 +1,377 @@
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    
+}
+.text a{
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+.header div{
+    margin: 15px;
+    cursor: pointer;
+}
+.header-span{
+    font-weight: 500;
+}
+
+section{
+    
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons-social{
+    text-align: center;
+    margin-top: 30px;
+}
+.icons-social a{
+     color: inherit;
+}
+.iconss{
+      font-size: 50px;
+      margin: 0px 20px;
+}
+.my-image img{
+    border: 5px solid rgb(71, 192, 222);
+    width: 270px;
+    height: 350px;
+    /* border-radius: 350px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.p-welcome{
+    color: rgb(71, 192, 222);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -40px;
+}
+h1  span{
+    color: rgb(209, 136, 79);
+}
+h1 {
+    font-family: "Rubik", sans-serif;
+    color: rgb(2, 141, 176);
+    font-weight: 700;
+    font-size: 27px;
+    max-width:40%;
+}
+h5 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    max-width: 70%;
+    
+    
+   
+
+}
+.text{
+    max-width: 50%;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 5px 40px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+}
+.seemore{
+    color: rgb(71, 192, 222);
+    cursor: pointer;
+}
+.my-image{
+    max-width: 40%;
+}
+/* ///////////////////////////////////// */
+/* ///////////////////////////////////// */
+/*********************************** projects ***********************************************/
+
+.cont{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+    
+}
+
+.cardd{
+    width:15%;
+    margin-left: 25px;
+    margin-bottom: 60px;
+
+    
+}
+
+.cardd img{
+   width: 100%;
+   
+}
+.cardd-text h4{
+    font-size: 22px;
+}
+.cardd-text a {
+text-decoration: none;
+}
+.cardd-text a h3 {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 12px;
+    margin-right: 12px;
+    
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: purple;
+    color: white;
+   
+}
+.cardd-text a h3:hover{
+    background-color: orange;
+}
+.cardd-text a h3:active{
+    color: blue;
+}
+ 
+
+
+
+/*********************************** projects ***********************************************/
+/* ------------------------media query---------------------- */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    h1 {     
+        max-width: 80%;
+        margin: auto;
+       
+    }
+    .p-welcome{
+        text-align: center;
+        margin-top: -50px;
+    }
+    .text{
+        max-width: 100%;
+    }
+    h5{
+        max-width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .btn{
+        padding: 5px 15px;
+        margin-bottom: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .my-image{
+        max-width: 80%;
+        margin: 10px auto;
+    }
+    .cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardd{
+        width:50%;
+        margin-bottom: 35px;
+
+    }
+
+
+    
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:768px) {
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    h1 {     
+        max-width: 80%;
+        margin: auto;
+       
+    }
+    .p-welcome{
+        text-align: center;
+        margin-top: -50px;
+    }
+    .text{
+        max-width: 100%;
+    }
+    h5{
+        max-width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .btn{
+        padding: 5px 15px;
+        margin-bottom: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .my-image{
+        max-width: 80%;
+        margin: 10px auto;
+    }
+    .cardd{
+        width:30%;
+        margin-bottom: 35px;
+
+    }
+    .cont{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .cardd{
+        width:30%;
+        
+
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+.footer a{
+    color: inherit;
+   
+}
+.footer{
+    text-align: center;
+    margin: 50px 0px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*:focus,  
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+.wrapper .icons {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
